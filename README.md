@@ -1,12 +1,14 @@
-#koop-provider-postgis
+# koop-provider-postgis
 
 A PostGIS provider for Koop.js.  Serve ESRI GeoServices from a PostGIS database!
 
-##Installation
-~~~~ npm install brambow/koop-provider-postgis ~~~~
+## Installation
+~~~~ 
+npm install brambow/koop-provider-postgis 
+~~~~
 
-##Configuration
-After install you need to set the PostGIS connection string in ~~~~config/default.json~~~~, where you set username, password, server, port, and database values.
+## Configuration
+After install you need to set the PostGIS connection string in ```config/default.json```, where you set username, password, server, port, and database values.
 
 ~~~~
 {
@@ -26,12 +28,12 @@ Example:
 }
 ~~~~
 
-##Usage
-This provider comes with a built-in server for testing purposes.  Simply run ~~~~ npm start ~~~~
+## Usage
+This provider comes with a built-in server for testing purposes.  Simply run ``` npm start ```
 
 However, this is designed to be used as a provider within a Koop application.  See koopjs/koop-sample-app for examples.
 
-##To Do
+## To Do
 * implement tests
 * remove squel dependency (maybe)
 * add routes/controllers for expanded API (e.g. run a buffer or intersection query)
