@@ -31,6 +31,10 @@ Example:
 ## Usage
 This provider comes with a built-in server for testing purposes.  Simply run ``` npm start ```
 
+The structure of the URLs is like this (for now, expect changes in the future)
+
+``` http://{yourserver}/postgis/FeatureServer/0/query?table={schema.tablename}&columns={columns} ```
+
 However, this is designed to be used as a provider within a Koop application.  See koopjs/koop-sample-app for examples.
 
 ## To Do
